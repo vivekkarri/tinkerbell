@@ -230,7 +230,7 @@ require (
 	github.com/soheilhy/cmux v0.1.5 // indirect
 	github.com/spf13/cast v1.7.0 // indirect
 	github.com/spf13/cobra v1.10.2 // indirect
-	github.com/stmcginnis/gofish v0.25.1-0.20260915152414-af1cf20386d5 // indirect
+	github.com/stmcginnis/gofish v0.27.1-0.20261102172810-28ea337674fc // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/u-root/uio v0.0.0-20240224005618-d2acac8f3701 // indirect
@@ -339,3 +339,5 @@ replace (
 replace k8s.io/cri-streaming => k8s.io/cri-streaming v0.36.4
 
 replace k8s.io/streaming => k8s.io/streaming v0.36.4
+
+replace github.com/bmc-toolbox/bmclib/v2 => github.com/vivekkarri/bmclib/v2 v2.3.6-0.20261123203846-38c7985ffceb
